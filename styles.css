@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.container {
+	width: 90px;
+	display: flex;
+	background-color: grey;
+	justify-content: center;
+	border-radius: 10px;
+}
+.container>div {
+	border-radius : 50%;
+	width: 1rem;
+	height: 1rem;
+}
+.red {
+	background-color: red;
+	
+}
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
